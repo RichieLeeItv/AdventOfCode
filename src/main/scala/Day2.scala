@@ -1,7 +1,5 @@
 import util.Resource
 
-import java.util
-
 object Day2 extends App {
   val input = Resource.forDay(2).getLines().toList
   //1 rock
@@ -65,5 +63,7 @@ object Day2 extends App {
 
     println(scores.sum)
   }
+
+  part1
   part2
 }
